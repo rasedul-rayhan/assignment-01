@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 /* shared styles */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .text-green{
     color: #469064;
 }
@@ -18,6 +26,23 @@
     font-size: 48px;
     color: #001931;
     margin-bottom: 16px;
+}
+.manu-btn-hvr{
+    transition: all 0.3s ease;
+}
+.manu-btn-hvr:hover{
+    color: #093a64;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.btn-hvr-effect{
+    transition: all 0.3s ease;
+}
+.btn-hvr-effect:hover{
+    background-color: rgb(22, 116, 133);
+    cursor: pointer;
+    color: white;
 }
 
 .early-access-btn{
@@ -111,11 +136,13 @@
     border: none;
     color: #FFFFFF;
 }
-.btn-bottm .btn-bottm-left{
+.btn-bottm-left{
     background-color: #30B868;
     margin-right: 15px;
 }
-.btn-bottm .btn-bottm-right{
+
+
+.btn-bottm-right{
     background: none;
     border: 1px solid white;
 }
