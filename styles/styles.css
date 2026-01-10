@@ -55,7 +55,6 @@ body {
 }
 
 /* main style */
-
 .early-open-btn{
     padding: 8px 12px;
     font-size: 19px;
@@ -64,7 +63,6 @@ body {
     font-weight: 500;
     border: none;
 }
-
 
 #nav-container{
     padding: 16px 0;
@@ -176,11 +174,13 @@ body {
     border-radius: 50%;
     margin: 16px auto;
 }
+
 .card h3{
     font-size: 24px;
     margin-bottom: 16px;
     color: #001931;
 }
+
 .card p{
     color: #627382;
 }
@@ -189,8 +189,8 @@ body {
     margin: 120px auto;
     display: flex;
     gap: 60px;
-
 }
+
 .knowledge-image{
     width: 56%;
     max-width: 600px;
@@ -199,7 +199,6 @@ body {
     padding: 120px 0;
     width: 40%;
 }
-
 
 .knowledge-article{
     text-align: justify;
@@ -234,7 +233,6 @@ body {
 .footer{
     background-color: #001931;
 }
-
 .footer-container{
     display: flex;
     justify-content: space-between;
